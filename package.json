@@ -1,6 +1,6 @@
 {
   "name": "@mdapi-issues/template",
-  "description": "Minimal working example to demonstrate a bug in DESCRIPTION",
+  "description": "Minimal working example to demonstrate a bug in deploy and updateMetadata where installed QuickActions cannot be updated",
   "private": true,
   "version": "0.0.0-development",
   "author": "Matthias Rolke @amtrack",
@@ -37,17 +37,13 @@
     "MWE"
   ],
   "license": "MIT",
-  "main": "/lib/workaround.js",
+  "main": "",
   "repository": "mdapi-issues/template",
   "scripts": {
-    "build": "rm -rf lib && tsc -b",
     "develop": "bash scripts/develop.sh",
     "format": "prettier --write 'src/**/*.ts' 'test/**/*.ts'",
     "lint": "eslint 'src/**/*.ts' 'test/**/*.ts'",
     "posttest": "yarn lint",
-    "prepack": "yarn build",
-    "prepare": "yarn build",
-    "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "test:e2e": "mocha --forbid-only \"test/**/*.e2e-spec.ts\""
   }
 }
