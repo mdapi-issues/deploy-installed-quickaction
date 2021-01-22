@@ -4,7 +4,7 @@ import child_process = require('child_process');
 const exec = util.promisify(child_process.exec);
 
 describe('issue', function () {
-  this.timeout('1m');
+  this.timeout('5m');
   before(async () => {
     await exec(
       'npx sfdx force:source:retrieve -m QuickAction:mdapidummy2gen__Vehicle__c.mdapidummy2gen__Deprecate'
