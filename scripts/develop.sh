@@ -37,7 +37,7 @@ _main() {
     -a "$alias" \
     -s \
     description="${alias}" ${POSITIONAL_ARGS[@]}
-  sfdx force:source:push -u "$alias"
+  sfdx force:package:install -p "Dummy Package 2nd gen" --publishwait 10 -w 10 -u "$alias"
 }
 
 if [[ "$0" == "${BASH_SOURCE[0]}" ]]; then
