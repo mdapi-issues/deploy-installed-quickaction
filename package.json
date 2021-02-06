@@ -19,7 +19,7 @@
     "eslint-config-prettier": "7.2.0",
     "mocha": "8.2.1",
     "prettier": "2.2.1",
-    "sfdx-cli": "7.82.0",
+    "sfdx-cli": "7.86.3",
     "ts-node": "9.1.1",
     "typescript": "4.1.3"
   },
