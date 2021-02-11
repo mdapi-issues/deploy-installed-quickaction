@@ -17,7 +17,7 @@
     "chai": "4.3.0",
     "eslint": "7.19.0",
     "eslint-config-prettier": "7.2.0",
-    "mocha": "8.2.1",
+    "mocha": "8.3.0",
     "prettier": "2.2.1",
     "sfdx-cli": "7.86.3",
     "ts-node": "9.1.1",
