@@ -6,7 +6,7 @@
   "author": "Matthias Rolke @amtrack",
   "bugs": "https://github.com/mdapi-issues/template/issues",
   "dependencies": {
-    "@salesforce/core": "2.18.4",
+    "@salesforce/core": "2.18.5",
     "tslib": "2.1.0"
   },
   "devDependencies": {
