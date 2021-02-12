@@ -5,10 +5,7 @@
   "version": "0.0.0-development",
   "author": "Matthias Rolke @amtrack",
   "bugs": "https://github.com/mdapi-issues/template/issues",
-  "dependencies": {
-    "@salesforce/core": "2.18.4",
-    "tslib": "2.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/chai": "4.2.15",
     "@types/mocha": "8.2.0",
