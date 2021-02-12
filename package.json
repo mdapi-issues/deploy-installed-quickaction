@@ -1,14 +1,11 @@
 {
-  "name": "@mdapi-issues/template",
+  "name": "@mdapi-issues/deploy-installed-quickaction",
   "description": "Minimal working example to demonstrate a bug in deploy and updateMetadata where installed QuickActions cannot be updated",
   "private": true,
   "version": "0.0.0-development",
   "author": "Matthias Rolke @amtrack",
-  "bugs": "https://github.com/mdapi-issues/template/issues",
-  "dependencies": {
-    "@salesforce/core": "2.18.4",
-    "tslib": "2.1.0"
-  },
+  "bugs": "https://github.com/mdapi-issues/deploy-installed-quickaction/issues",
+  "dependencies": {},
   "devDependencies": {
     "@types/chai": "4.2.15",
     "@types/mocha": "8.2.0",
@@ -29,7 +26,7 @@
   "files": [
     "/lib"
   ],
-  "homepage": "https://github.com/mdapi-issues/template",
+  "homepage": "https://github.com/mdapi-issues/deploy-installed-quickaction",
   "keywords": [
     "salesforce",
     "mdapi-issue",
@@ -38,7 +35,7 @@
   ],
   "license": "MIT",
   "main": "",
-  "repository": "mdapi-issues/template",
+  "repository": "mdapi-issues/deploy-installed-quickaction",
   "scripts": {
     "develop": "bash scripts/develop.sh",
     "format": "prettier --write 'src/**/*.ts' 'test/**/*.ts'",
