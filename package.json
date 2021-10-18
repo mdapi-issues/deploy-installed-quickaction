@@ -18,7 +18,7 @@
     "prettier": "2.2.1",
     "sfdx-cli": "7.86.3",
     "ts-node": "9.1.1",
-    "typescript": "4.2.4"
+    "typescript": "4.4.4"
   },
   "engines": {
     "node": ">=8.0.0"
