@@ -1,6 +1,8 @@
 # deploy-installed-quickaction
 
-> Minimal working example to demonstrate a bug in deploy and updateMetadata where installed QuickActions cannot be updated
+> **UPDATE: This issue has been resolved probably in the Summer 21 Release**
+
+> ~~Minimal working example to demonstrate a bug in deploy and updateMetadata where installed QuickActions cannot be updated~~
 
 [![Actions Status](https://github.com/mdapi-issues/deploy-installed-quickaction/workflows/Test%20and%20Release/badge.svg)](https://github.com/mdapi-issues/deploy-installed-quickaction/actions)
 
