@@ -11,11 +11,8 @@ describe('issue', function () {
     );
   });
   it('succeeds to deploy the same installed QuickAction', async () => {
-    const { stdout } = await exec(
-      'npx sfdx force:source:deploy -m QuickAction:mdapidummy2gen__Vehicle__c.mdapidummy2gen__Deprecate'
-    );
-    expect(stdout).to.match(
-      /mdapidummy2gen__Vehicle__c.mdapidummy2gen__Deprecate/
+    await exec(
+      'npx sfdx force:source:deploy -c -m QuickAction:mdapidummy2gen__Vehicle__c.mdapidummy2gen__Deprecate'
     );
   });
   it('fails to deploy an updated installed QuickAction', async () => {
@@ -25,7 +22,7 @@ describe('issue', function () {
     let error;
     try {
       await exec(
-        'npx sfdx force:source:deploy -m QuickAction:mdapidummy2gen__Vehicle__c.mdapidummy2gen__Deprecate'
+        'npx sfdx force:source:deploy -c -m QuickAction:mdapidummy2gen__Vehicle__c.mdapidummy2gen__Deprecate'
       );
     } catch (e) {
       error = e;
